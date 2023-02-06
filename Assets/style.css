@@ -1,45 +1,9 @@
-body {
-    background-color: rgb(240, 240, 239);
+* {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
 
-#navigation-box {
-    background-color: purple;
-    color: lightpink;
-}
+div, nav, ul, li {
+    font-size: 3em;
+    font-weight: bold;
 
-.Mainheader {
-    display: flex; left:;
-    background-color: aquamarine;
-    color: ivory;
-}
-
-.mypicture {
-    height: 200px;
-    width 25%
-    margin-top: display: top: 25px;
-    background-image: ;
-    background-position: :right;
-}
-
-.header-nav {
-  display: flex;  
-  position: absolute;
-    width: 100%;
-    height: 2rem;
-    top: 0;
-    left: 0;
-    background: #b15c5c;
-    display: flex;
-    justify-content: space-between;
-}
-
-.about-me-box {
-background-color: deepskyblue;
-color: aliceblue;
-}
-
-.body {
-    background-color: mediumslateblue;
-    color: darkcyan;
-    
 }
