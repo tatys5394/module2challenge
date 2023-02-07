@@ -46,6 +46,13 @@ div nav ul {
  ul {
     list-style-type: none;
     color: blueviolet;
+    
+}
+
+li {
+    margin-right: 10px;
+    color: blueviolet;
+        
 }
  a {
     color: black;
@@ -60,10 +67,19 @@ display: flex;
 }
 
 .trees {
+    color: aliceblue;
+    text-align: center;
     background-image: url(./dark\ sparkle.jpeg);
-    background-size: cover
+    background-size: cover;
+    height: 27vh;
 }
 
+.pink-blue {
+    color: aliceblue;
+    text-align: center;
+    background-image: url(./pinknblue.jpeg);
+    background-size: cover
+}
 .header nav ul {
     display: flex;
     background-color: blue;
