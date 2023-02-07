@@ -1,9 +1,82 @@
 * {
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
 }
-
-div, nav, ul, li {
-    font-size: 3em;
-    font-weight: bold;
+header {
+display: flex;
 
 }
+.brand {
+    background-color: rgb(202, 127, 227); 
+    font-size: medium;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    padding: 0em;
+    border: none;
+}
+
+.my-picture {
+    display: flex;
+    justify-content:flex-end;
+    border: top width 15%;
+    height: auto;
+    width: 200px;
+    flex-direction:column;
+}
+ 
+.purple-smoke {
+    display: flex;
+    background-image: url(./purple.jpeg);
+    object-fit: cover;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(110, 197, 168);
+    color: blueviolet;
+}
+div nav ul {
+    background-color: rgb(110, 197, 168);
+    font-size: x-large;
+    display: flex;
+    flex-direction: row;
+ }
+ 
+ ul {
+    list-style-type: none;
+    color: blueviolet;
+}
+ a {
+    color: black;
+ }
+
+.main-content {
+background-color: rgb(110, 197, 168);
+color: blueviolet;
+justify-content: right;
+text-align: right;
+display: flex;
+}
+
+.trees {
+    background-image: url(./dark\ sparkle.jpeg);
+    background-size: cover
+}
+
+.header nav ul {
+    display: flex;
+    background-color: blue;
+    color: blueviolet;
+    flex-direction: row;
+    align-items: center;
+    font-size: 3em;
+    font-weight: bold;
+}
+
+@media screen and (min-width: 650px0) 
+    header {
+        flex-direction: row;
+        justify-content: space-between;
+    }  
+

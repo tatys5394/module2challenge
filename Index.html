@@ -5,40 +5,51 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <Title>Tatiana Castro Portfolio</Title>
+    <link rel="stylesheet" href="Assets/style.css">
 </head>
 
 <body>
-   <div class="Mainheader">
-    <h1>Tatiana Castro</h1>
-    <h2>Full Stack Developer</h2>
+    <!-- flexbox starts -->
+       <!-- Add a picture of yourself -->
+    <header>
+        <div class="brand">
+            <h1>Tatiana Castro</h1>
+            <h2>Full Stack Developer</h2>
+        </div>
+        <div class="my-picture">
+            <img src="Assets/Tati.jpeg" alt="female posing with her arms crossed">
+        </div>
+    </header>
+    <!-- flexbox ends -->
+    <div class="purple-smoke">
+        <figure> <img src="Assets/purple.jpeg"alt="purple and white smoke"></figure>
    </div>
-   <!-- Create Nav Section including About Me, Work, Contect me, GitHub, LinkedIn, and Resume -->
+   <!-- Create Nav Section including About Me, Work, Contact me, GitHub, LinkedIn, and Resume -->
    <!-- Add links to nav section  -->
   <div>
     <nav>
         <ul>
-            <li><a href="#navigation-box">About Me</a></li>
-            <li><a href="#navigation-box">My Work</a></li>
-            <li><a href="#navigation-box">GitHub</a></li>
-            <li><a href="#navigation-box">LinkedIn</a></li>
-            <li><a href="#navigation-box">Resume</a> </li>
-            <li><a href="#navigation-box">Contact Me</a></li>
+            <li><a href="#about-me">About Me</a></li>
+            <li><a href="#my-work">My Work</a></li>
+            <li><a href="#github">GitHub</a></li>
+            <li><a href="#linkedIn">LinkedIn</a></li>
+            <li><a href="#resume">Resume</a> </li>
+            <li><a href="#contact-me">Contact Me</a></li>
         </ul>
     </nav>
   </div>
-   <!-- Add a picture of yourself -->
-   <div class="mypicture"></div>
-
   <!-- Create About Me Box section and add language in About Me section-->
-  <div id="About-Me" class="body">
-  <h2 class="About-me-box"> About Me</h2>
-            <p> My Name is Tatiana Castro and I am a Full Stack Engineer. I received my bootcamp certification from Columbia Video Network in April 2023 and hope to be able to excell in this career with everything that i have learned in the course. 
-            </p>
-     </div>
-
+  <div id="about-me" class="header nav ul">
+    <h2 class="about-me-box"> About Me</h2>
+            <p> My Name is Tatiana Castro and I am a Full Stack Engineer. I received my bootcamp certification from Columbia Video Network in April 2023 and hope to be able to excell in this career with everything that i have learned in the course. </p>
+ </div>
+    
 <!-- Create Work Box -->
-<div id="Work" class="body">
+<div id="Work" class="trees">
     <h2 class="body"> Work</h2>
+    
+
+    <!-- <img src="" alt="dark sparkles falling from the sky"> -->
  <!-- Add picture of Mini project 1 and add link to mini project-->
     <p>
         <a href="#navigation-box"> First Application</a>
@@ -71,7 +82,7 @@
     <!-- Make sure that site has a responsive layout that adapts to my viewport  -->
 
 
-    <!-- Make sure your repository is properly connected to lcal machine  -->
+    <!-- Make sure your repository is properly connected to local machine  -->
 
 </footer>
 </html>
