@@ -128,11 +128,17 @@ margin-right: 15px;
 }
 
 @media screen and (min-width: 650px0) 
-    header {
+header {
         flex-direction: row;
         justify-content: space-between;
-    }  
+}  
 
 /* .horiseon {
     background-image: url(./horiseon.png); */
-}
+
+    .blue {
+        color:black;
+        text-align: center;
+        background-color: cornflowerblue;
+        background-size: cover
+    }
